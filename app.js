@@ -23,7 +23,7 @@ function clickHandler() {
 }
 
 function calculateChange(amountToBeReturned){
-     for(var i = 0; i < availableNotes.length; i++);{
+     for(var i = 0; i < availableNotes.length; i++){
          var numberOfNotesToBeGiven = Math.trunc( amountToBeReturned / availableNotes[i] );
          amountToBeReturned = amountToBeReturned % availableNotes[i];
          numberOfNotes[i].innerText = numberOfNotesToBeGiven;
